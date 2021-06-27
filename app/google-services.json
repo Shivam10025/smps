@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "205785022702",
+    "project_id": "spasbynituk",
+    "storage_bucket": "spasbynituk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205785022702:android:b34295ac1ed780121773ff",
+        "android_client_info": {
+          "package_name": "com.example.spasbynituk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205785022702-tpb393f0s2ap25ip355supl349ajid86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZHPVm0YfuzltP1L41yXgah6KhJDTTvwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205785022702-tpb393f0s2ap25ip355supl349ajid86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

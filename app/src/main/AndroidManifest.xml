@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.spasbynituk">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Spasbynituk">
+        <activity android:name=".MainActivity8"></activity>
+        <activity android:name=".uploadfile3" />
+        <activity android:name=".uploadfile2" />
+        <activity android:name=".viewpdf" />
+        <activity android:name=".MainActivity7" />
+        <activity android:name=".uploadfile" />
+        <activity android:name=".MainActivity9" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity4" />
+        <activity android:name=".Three" />
+        <activity android:name=".Secondary" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".eceactivity" />
+        <activity android:name=".mechactivity" />
+        <activity android:name=".eeactvity" />
+        <activity android:name=".civilactivity" />
+        <activity android:name=".cseactivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".ssignin" />
+        <activity android:name=".student" />
+        <activity android:name=".signupactivity" />
+        <activity android:name=".signinactivity" />
+        <activity android:name=".askingactivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

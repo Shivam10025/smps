@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout tools:context=".uploadfile3" android:background="@drawable/bg" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="132dp" android:layout_width="164dp" app:srcCompat="@drawable/browse" app:layout_constraintVertical_bias="0.262" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.497" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/imagebrowse"/>
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" app:srcCompat="@drawable/upload" app:layout_constraintVertical_bias="0.841" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.496" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/imageupload"/>
+
+    <AutoCompleteTextView android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:id="@+id/filetitle" app:layout_constraintTop_toBottomOf="@+id/imagebrowse" app:layout_constraintBottom_toTopOf="@+id/fileti" android:hint="Course" android:textColor="@color/colorAccent" android:textStyle="bold" android:textSize="25sp" android:inputType="textPersonName" android:ems="10" android:layout_marginBottom="0dp" android:layout_marginTop="45dp"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:id="@+id/fileti" app:layout_constraintTop_toBottomOf="@+id/filetitle" app:layout_constraintBottom_toTopOf="@+id/imageupload" android:hint="Year i.e. BTECH19" android:textColor="@color/colorAccent" android:textStyle="bold" android:textSize="25sp" android:inputType="textPersonName" android:ems="10" android:layout_marginBottom="178dp" android:layout_marginTop="0dp"/>
+
+
+    <ImageView android:layout_height="162dp" android:layout_width="152dp" app:srcCompat="@drawable/file" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.498" app:layout_constraintEnd_toEndOf="parent" android:id="@+id/filelogo" app:layout_constraintBottom_toTopOf="@+id/filetitle" android:layout_marginBottom="25dp" android:layout_marginTop="142dp"/>
+
+    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" app:srcCompat="@drawable/cancel" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" android:id="@+id/cancelfile" app:layout_constraintBottom_toTopOf="@+id/filelogo" android:layout_marginBottom="10dp" android:layout_marginTop="96dp" android:layout_marginEnd="107dp" android:layout_marginStart="270dp"
+        android:layout_marginRight="107dp"
+        android:layout_marginLeft="270dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
